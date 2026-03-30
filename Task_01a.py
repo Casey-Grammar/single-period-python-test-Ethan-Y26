@@ -7,15 +7,17 @@
 
 def calculate_total(price, quantity):
     # Write your code here
-    pass
+        return price * quantity
 
 
 def main():
     price = float(input("Enter price: "))
     quantity = int(input("Enter quantity: "))
     total = calculate_total(price, quantity)
-    print(total)
+    print(f'\nTotal cost: {total}')
+
 
 
 if __name__ == "__main__":
     main()
+                            
